@@ -6,7 +6,7 @@
 #    By: njordaan <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/07/13 11:16:28 by njordaan          #+#    #+#              #
-#    Updated: 2018/08/06 14:11:54 by njordaan         ###   ########.fr        #
+#    Updated: 2018/08/07 11:52:38 by njordaan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,6 +28,9 @@ run: compile
 clean:
 	make -C ./lib/ clean
 	make -C ./src/ clean
+
+fclean: clean
+	rm $(NAME)
 
 leaks:
 	leaks $(NAME) | grep "Process"
