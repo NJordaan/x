@@ -6,11 +6,11 @@
 #    By: njordaan <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/05/23 08:22:22 by njordaan          #+#    #+#              #
-#    Updated: 2018/08/07 11:47:39 by njordaan         ###   ########.fr        #
+#    Updated: 2018/08/07 11:54:50 by njordaan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = lib.a
+NAME = src.a
 FLAGS = -Wall -Wextra -Werror
 SRC = color.c \
 	  draw.c \
